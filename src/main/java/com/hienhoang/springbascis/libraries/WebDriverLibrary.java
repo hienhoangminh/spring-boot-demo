@@ -3,7 +3,9 @@ package com.hienhoang.springbascis.libraries;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -16,16 +18,20 @@ public class WebDriverLibrary {
     @ConditionalOnProperty(name = "browser", havingValue = "chrome")
     @Scope("driverscope")
     public WebDriver getChromeDriver() {
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
         WebDriverManager.chromedriver().setup();
-        return new ChromeDriver();
+        return new ChromeDriver(options);
     }
 
     @Bean
     @ConditionalOnProperty(name = "browser", havingValue = "firefox")
     @Scope("driverscope")
     public WebDriver getFirefoxDriver() {
+        FirefoxOptions firefoxOptions = new FirefoxOptions();
+        firefoxOptions.addArguments("--headless");
         WebDriverManager.firefoxdriver().setup();
-        return new FirefoxDriver();
+        return new FirefoxDriver(firefoxOptions);
     }
 
 }
