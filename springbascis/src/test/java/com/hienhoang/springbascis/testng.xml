@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10" configfailurepolicy="skip">
+    <test name="E2E Test of EA app">
+        <classes>
+            <!--<class name="com.hienhoang.springbascis.SpringTestNGTest"/>-->
+            <class name="com.hienhoang.springbascis.runner.CucumberTestRunner"/>
+        </classes>
+    </test>
+</suite>
