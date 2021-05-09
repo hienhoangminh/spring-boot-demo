@@ -1,0 +1,8 @@
+com/hienhoang/springbascis/Car.class
+com/hienhoang/springbascis/models/UserDetails.class
+com/hienhoang/springbascis/libraries/WebDriverLibrary.class
+com/hienhoang/springbascis/libraries/DriverScope.class
+com/hienhoang/springbascis/libraries/DriverScopePostProcessor.class
+com/hienhoang/springbascis/SpringbascisApplication.class
+com/hienhoang/springbascis/libraries/DriverScopeConfig.class
+com/hienhoang/springbascis/models/TestUserDetails.class

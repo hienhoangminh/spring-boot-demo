@@ -1,0 +1,452 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-09T14:41:55.193Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10520458000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.Hooks.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1777969000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.Hooks.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 790214000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click login in Home Page",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.LoginSteps.iClickLoginInHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 289171000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.HomeSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 473225000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login button",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.LoginSteps.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201996000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.LoginSteps.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 516420000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click Logoff to logout",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.HomeSteps.iClickLogoffToLogout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T14:41:55.169Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10502876000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.Hooks.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login with correct username and password 2",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password-2",
+        "after": [
+          {
+            "result": {
+              "duration": 1812346000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.Hooks.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 817260000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click login in Home Page",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.LoginSteps.iClickLoginInHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 289276000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.HomeSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "password2"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 566352000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click login button",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.LoginSteps.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135348000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.LoginSteps.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 535874000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click Logoff to logout",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.HomeSteps.iClickLogoffToLogout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "  This feature deals with the login functionality of the application",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/hienhoang/springbascis/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-09T14:41:55.169Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10515076000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.Hooks.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1708623000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.Hooks.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 818594000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click login in Home Page",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.LoginSteps.iClickLoginInHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 213207000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.HomeSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "password"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 658664000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click login button",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.LoginSteps.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152003000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.LoginSteps.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 725600000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click Logoff to logout",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.HomeSteps.iClickLogoffToLogout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-09T14:41:55.180Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10548053000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.Hooks.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login with correct username and password 2",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password-2",
+        "after": [
+          {
+            "result": {
+              "duration": 1595947000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.Hooks.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 820675000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click login in Home Page",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.LoginSteps.iClickLoginInHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 115869000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.HomeSteps.iEnterTheFollowingForLogin(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "password2"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 643835000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click login button",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.LoginSteps.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 213440000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.LoginSteps.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 790421000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click Logoff to logout",
+            "match": {
+              "location": "com.hienhoang.springbascis.steps.HomeSteps.iClickLogoffToLogout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "  This feature deals with the login functionality of the application",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/hienhoang/springbascis/features/Login_Parallel.feature",
+    "tags": []
+  }
+]
